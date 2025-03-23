@@ -1,5 +1,5 @@
 title = "Hinode"
-copyright = "Copyright © 2022 - 2025 Mark Dumay."
+copyright = "CC0"
 enableGitInfo = true
 
 # additional settings
@@ -122,8 +122,25 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
   [[module.mounts]]
     source = "static"
     target = "static"
+  [[module.mounts]]
+    source = "netlify.toml"
+    target = "assets/config/netlify.toml"
+  [[module.mounts]]
+    source = "assets/js/modules/leaflet/leaflet-map.js"
+    target = "static/leaflet-map.js"
+  [[module.mounts]]
+    source = "assets/js/modules/leaflet/leaflet-mapcluster.js"
+    target = "static/leaflet-mapcluster.js"
+  [[module.imports]]
+    path = "github.com/oolonek/mod-leaflet"
   [[module.imports]]
     path = "github.com/gethinode/hinode"
+
+[params.modules.hinode.csp]
+  style-src = ["'self'", "https://fonts.googleapis.com"]
+  script-src = ["'self'", "https://tile.openstreetmap.org"]
+  connect-src = ["'self'", "https://tile.openstreetmap.org"]
+  img-src = ["'self'", "data:"]
 
 [segments]
   [segments.headers]

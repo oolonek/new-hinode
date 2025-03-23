@@ -31,8 +31,13 @@
 [home]
     # sections = ["posts"]
     fullCover = false
-    centerHeadline = false
-    style = ""
+    centerHeadline = true
+    style = "gradient-featured"
+    [home.feature]
+        orientation = "stacked"
+        color = "primary"
+        width = 12
+        align = "start"
 
 [navigation]
     anchor = true

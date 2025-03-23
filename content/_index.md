@@ -1,15 +1,20 @@
 ---
-title: Welcome to Hinode!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+title: The Earth Metabolome Initiative
+description: A global effort to document the world's chemodiversity
 thumbnail:
-    url: /img/sunrise.jpg
-    author: Harris Vo
-    authorURL: https://unsplash.com/@hoanvokim
-    origin: https://unsplash.com/photos/ZX6BPboJrYk
+    url: /img/ecuador_river_red.jpg
     originName: Unsplash
 actions:
-  get-started:
-    url: "https://gethinode.com/docs"
-    title: "Get started"
-    icon: "fas book-open"
+    getstarted:
+        url: "docs/getting-started/introduction/"
+        title: "Get Started"
+        icon: "fas book-open"
+        weight: 1
+    demo:
+        url: "https://demo.gethinode.com"
+        title: "Live Demo"
+        icon: "fas display"
+        outline: true
+        weight: 2
 ---
+
