@@ -3,8 +3,8 @@ copyright = "CC0"
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://example.com/"
-canonifyURLs = false
+baseURL = "http://localhost:1313/"
+canonifyURLs = true
 enableEmoji = true
 enableRobotsTXT = true
 enableInlineShortcodes = true

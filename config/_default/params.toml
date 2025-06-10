@@ -41,7 +41,7 @@
 
 [navigation]
     anchor = true
-    logo = "/img/logo_icon.svg"
+    logo = "/assets/img/logo_icon_pma.svg"
     color = "body"
     fixed = true
     offset = "5.5rem"

@@ -126,7 +126,7 @@
       "fa-github",
       "fa-link",
       "fa-linkedin",
-      "fa-medium",
+      "fa-mastodon",
       "fa-moon",
       "fa-share-nodes",
       "fa-sort",
@@ -280,7 +280,7 @@
       "fab-facebook",
       "fab-github",
       "fab-linkedin",
-      "fab-medium",
+      "fab-mastodon",
       "fab-whatsapp",
       "fab-x-twitter",
       "fas-angle-left",
@@ -9485,6 +9485,7 @@
       "tspan113932",
       "tspan113946",
       "tspan113960",
+      "what-are-we-working-on",
       "who-am-i-"
     ]
   }
