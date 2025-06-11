@@ -6,14 +6,14 @@ thumbnail:
     originName: Unsplash
 actions:
     getstarted:
-        url: "docs/getting-started/introduction/"
-        title: "Get Started"
-        icon: "fas book-open"
+        url: "members"
+        title: "Who are we ?"
+        icon: "fas people-group"
         weight: 1
     demo:
-        url: "https://demo.gethinode.com"
-        title: "Live Demo"
-        icon: "fas display"
+        url: "https://github.com/earth-metabolome-initiative"
+        title: "EMI Codebase"
+        icon: "fab github"
         outline: true
         weight: 2
 ---
