@@ -30,8 +30,8 @@
 
 [home]
     # sections = ["posts"]
-    fullCover = false
-    centerHeadline = true
+    fullCover = true
+    centerHeadline = false
     style = "gradient-featured"
     [home.feature]
         orientation = "stacked"
@@ -41,7 +41,7 @@
 
 [navigation]
     anchor = true
-    logo = "/assets/img/logo_icon_pma.svg"
+    logo = "/img/emi_round_gold_simple.svg"
     color = "body"
     fixed = true
     offset = "5.5rem"
@@ -93,21 +93,36 @@
     clipboard = true
 
 # toml-docs-start sections
-# [sections]
-#     [sections.posts]
-#         title = "Posts"
-#         sort = "date"
-#         reverse = true
-#         nested = true
-#         cols = 3
-#         color = ""
-#         padding = "0"
-#         header = "full"
-#         footer = "none"
-#         orientation = "stacked"
-#         style = "border-0 card-zoom"
-#         homepage = 3
-#         separator = true
+[sections]
+    [sections.posts]
+        title = "Posts"
+        sort = "date"
+        reverse = true
+        nested = true
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom"
+        homepage = 3
+        separator = true
+    #[sections.members]
+    #    title = "Members"
+    #    sort = "date"
+    #    reverse = false
+    #    nested = true
+    #    cols = 3
+    #    color = ""
+    #    padding = "0"
+    #    header = "full"
+    #    footer = "none"
+    #    orientation = "stacked"
+    #    style = "border-0 card-zoom"
+    #    homepage = 3
+    #    separator = true
+
 # toml-docs-end sections
 
 [favicon]
@@ -115,7 +130,7 @@
     sizes = [16, 32, 48]
 
 [style]
-    primary = "#d43900"
+    primary = "#ab9639"
     secondary = "#6c757d"
     success = "#198754"
     info = "#0dcaf0"
